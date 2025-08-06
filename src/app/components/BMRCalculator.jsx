@@ -12,7 +12,7 @@ export default function BMRCalculator() {
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === "Escape") {
-        // No modal logic
+        
       }
     };
     window.addEventListener("keydown", handleKeyDown);
